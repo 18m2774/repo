@@ -2,5 +2,9 @@ language: csharp
 solution: oware.sln
 dotnet: 5.0 
 mono: none 
-os: linux
+os: 
+  - linux
+  - osx
+script: 
+  dotnet restore 
 dist: focal
