@@ -1,0 +1,8 @@
+language: csharp
+solution: oware.sln 
+dotnet: 5.0
+OS: 
+  - Focal Fossa Ubuntu Linux distribution 
+  - osx
+script: 
+  - dotnet restore 
