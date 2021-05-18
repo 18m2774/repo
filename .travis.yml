@@ -4,5 +4,6 @@ dotnet: 5.0
 OS: 
   - Focal Fossa Ubuntu Linux distribution 
   - osx
+mono: none 
 script: 
   - dotnet restore 
