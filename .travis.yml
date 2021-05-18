@@ -1,9 +1,7 @@
-language: csharp
-solution: oware.sln 
-dotnet: 5.0
-OS: 
-  - Focal Fossa Ubuntu Linux distribution 
-  - osx
+language: csharp 
+dotnet: 5.0 
 mono: none 
-script: 
-  - dotnet restore 
+os: 
+  - linux 
+  - osx
+dist: focal
